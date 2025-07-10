@@ -16,6 +16,7 @@
     }
   ],
   "build": {
+    "setup": "./setup_node",
     "build": "make build"
   }
 }
