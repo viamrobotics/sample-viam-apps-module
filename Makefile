@@ -14,5 +14,5 @@ upload: build
 	viam module upload --version=${VERSION} --platform=any --public-namespace=${ORG_PUBLIC_NAMESPACE} module
 
 build:
-	cd src/blue && npm run build
-	cd src/red && npm run build
+	cd src/blue && npm install && npm run build
+	cd src/red && npm install && npm run build
