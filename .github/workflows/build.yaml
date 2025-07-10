@@ -15,6 +15,13 @@ jobs:
         uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4.3.0
         with:
           node-version: '20'
+      
+      - name: Check Node and NPM versions
+        run: |
+          which node
+          node -v
+          which npm
+          npm -v
 
       - uses: viamrobotics/build-action@v1.6
         with:
