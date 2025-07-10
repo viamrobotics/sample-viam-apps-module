@@ -16,4 +16,4 @@ upload: build
 build:
 	cd src/blue && npm install && npm run build
 	cd src/red && npm install && npm run build
-	tar czf module/module.tar.gz module meta.json
+	tar czf bin/module.tar.gz module meta.json

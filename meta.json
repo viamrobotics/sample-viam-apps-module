@@ -18,6 +18,6 @@
   "build": {
     "setup": "./setup_node.sh",
     "build": "make build",
-    "path": "module/module.tar.gz"
+    "path": "bin/module.tar.gz"
   }
 }
