@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+
+      - name: Setup Node.js and pnpm
+        uses: viamrobotics/js-config/.github/actions/setup@main
+        with:
+          node-version: '22'
+
       - uses: viamrobotics/build-action@v1.6
         with:
           # note: you can replace this line with 'version: ""' if
