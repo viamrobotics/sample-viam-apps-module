@@ -1,1 +1,1 @@
-The apps defined in this module can be accessed at [redbotname_bashar-prod.viamapplications.com](https://redbotname_bashar-prod.viamapplications.com) and [bluebotname_bashar-prod.viamapplications.com](https://bluebotname_bashar-prod.viamapplications.com).
+The apps defined in this module can be accessed at [redbotname_nicolas-viam.viamapplications.com](https://redbotname_nicolas-viam.viamapplications.com) and [bluebotname_nicolas-viam.viamapplications.com](https://bluebotname_nicolas-viam.viamapplications.com).
