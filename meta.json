@@ -2,6 +2,7 @@
   "module_id": "nicolas-viam:sample-apps-module",
   "visibility": "public",
   "description": "This module tests a couple of Viam Apps.",
+  "url": "https://github.com/viamrobotics/sample-viam-apps-module",
   "applications": [
     {
       "name": "redbotname",
