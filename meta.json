@@ -17,6 +17,7 @@
   ],
   "build": {
     "setup": "./setup_node.sh",
-    "build": "make build"
+    "build": "make build",
+    "path": "module"
   }
 }
