@@ -1,0 +1,20 @@
+{
+  "module_id": "nicolas-viam:sample-apps-module",
+  "visibility": "public",
+  "description": "This module tests a couple of Viam Apps.",
+  "applications": [
+    {
+      "name": "redbotname",
+      "type": "single_machine",
+      "entrypoint": "module/apps/red/dist/index.html"
+    },
+    {
+      "name": "bluebotname",
+      "type": "single_machine",
+      "entrypoint": "module/apps/blue/dist/index.html"
+    }
+  ],
+  "build": {
+    "build": "make build"
+  }
+}
