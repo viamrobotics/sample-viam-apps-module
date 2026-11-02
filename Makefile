@@ -1,4 +1,4 @@
-.PHONY: create update upload build
+.PHONY: create update upload build lint
 
 VERSION := 1.0.0
 MODULE_NAME := sample-apps-module
@@ -17,3 +17,7 @@ build:
 	cd src/blue && npm install && npm run build
 	cd src/red && npm install && npm run build
 	tar czf module.tar.gz module meta.json
+
+# Fixes formatting in place; CI runs the same check without --write.
+lint:
+	npx --yes prettier@3.9.10 --write src
